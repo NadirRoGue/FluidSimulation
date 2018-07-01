@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\vec2.cpp" />
+    <ClCompile Include="..\..\src\scene.cpp" />
+    <ClCompile Include="..\..\src\fluidVisualizer2.cpp" />
+    <ClCompile Include="..\..\src\index2.cpp" />
+    <ClCompile Include="..\..\src\fluid2Exercise.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\vec2.h" />
+    <ClInclude Include="..\..\src\scene.h" />
+    <ClInclude Include="..\..\src\grid2.h" />
+    <ClInclude Include="..\..\src\array2.h" />
+    <ClInclude Include="..\..\src\bbox2.h" />
+    <ClInclude Include="..\..\src\index2.h" />
+    <ClInclude Include="..\..\src\fluid2.h" />
+    <ClInclude Include="..\..\src\fluidVisualizer2.h" />
+    <ClInclude Include="..\..\src\pcgsolver\blas_wrapper.h">
+      <Filter>pcgsolver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pcgsolver\matutil.h">
+      <Filter>pcgsolver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pcgsolver\pcg_solver.h">
+      <Filter>pcgsolver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pcgsolver\sparse_matrix.h">
+      <Filter>pcgsolver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pcgsolver\util.h">
+      <Filter>pcgsolver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pcgsolver">
+      <UniqueIdentifier>{f855f44b-b914-48f8-a7dd-f6e6aa6e2ec1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
